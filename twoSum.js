@@ -6,10 +6,12 @@ let sum=0;
 let ans=[]
 while(i<j){
     sum=nums[i]+nums[j];
+    //Skip the duplicate values
     if(i>0 && nums[i-1]==nums[i]){
         i++;
         continue;
     } 
+    //Skip the duplicate values
     if(j<nums.length-1 && nums[j+1]==nums[j]){
         j--;
         continue;
