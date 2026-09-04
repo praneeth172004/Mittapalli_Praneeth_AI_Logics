@@ -23,3 +23,6 @@ while(l<r){
     }
 }
 console.log(water)
+
+// O(n) Time Complexity
+// O(n) Space Complexity

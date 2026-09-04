@@ -13,3 +13,6 @@ for(let i=0;i<nums.length;i++){
     }
 }
 console.log(parseInt(nums.join("")))
+
+// O(n^2) Time Complexity
+// O(n) Space Complexity

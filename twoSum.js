@@ -27,3 +27,5 @@ while(i<j){
     }
 }
 console.log(ans)
+// O(n) Time Complexity
+// O(n) Space Complexity
